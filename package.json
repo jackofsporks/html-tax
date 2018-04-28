@@ -1,0 +1,22 @@
+{
+  "name": "html-hook",
+  "main": "./lib/html-hook",
+  "version": "0.1.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/html-hook",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "providedServices": {
+    "blockitLanguage": {
+      "versions": {
+        "0.1.0": "getSelf"
+      }
+    }
+  }
+}
